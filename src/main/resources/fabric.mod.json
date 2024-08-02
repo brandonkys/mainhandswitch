@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "testo",
+  "version": "${version}",
+  "name": "testo",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/Brandon/testo"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/testo/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "io.github.brandonkys.mainhandswitch.client.MainHandSwitchClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
